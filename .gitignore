@@ -7,9 +7,26 @@ Originals/
 log_desproteccion.csv
 unprotect_log.csv
 
+# Secrets and personal data
+.env
+*.local.*
+data/
+*.db
+*.sqlite*
+backups/
+
+# Generated when running
+*.log
+_ultimo-log.txt
+_last-run.log
+dist/
+
 # Python
+.venv/
 __pycache__/
 *.pyc
+.pytest_cache/
+.coverage
 
 # Packages and old handover bundles
 *.zip
