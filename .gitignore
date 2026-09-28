@@ -10,3 +10,6 @@ unprotect_log.csv
 # Python
 __pycache__/
 *.pyc
+
+# Packages and old handover bundles
+*.zip
