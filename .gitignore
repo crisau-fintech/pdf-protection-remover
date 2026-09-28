@@ -1,0 +1,12 @@
+# PDFs and files created when running the tool
+*.pdf
+*.PDF
+*.tmp
+Originales/
+Originals/
+log_desproteccion.csv
+unprotect_log.csv
+
+# Python
+__pycache__/
+*.pyc
